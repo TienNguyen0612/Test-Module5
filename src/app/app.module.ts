@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { BookComponent } from './book/book.component';
 import {HttpClientModule} from "@angular/common/http";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import { DetailComponent } from './detail/detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BookComponent
+    BookComponent,
+    DetailComponent
   ],
   imports: [
     BrowserModule,
